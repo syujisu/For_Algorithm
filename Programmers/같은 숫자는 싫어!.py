@@ -26,10 +26,7 @@ def no_continuous_int(s):
     return l
 
 
-def no_continuous(s):
+def solution(s):
     # 함수를 완성하세요
     return [ s[i] for i in range(len(s)) if (i ==0) or (s[i] != s[i-1]) ]
-
-# 아래는 테스트로 출력해 보기 위한 코드입니다.
-print( no_continuous( "133303" ))
 
